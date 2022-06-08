@@ -1,0 +1,5 @@
+node_modules
+.vscode
+.next
+.husky
+next-env.d.ts
