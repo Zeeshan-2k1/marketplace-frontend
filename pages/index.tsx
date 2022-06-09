@@ -1,7 +1,12 @@
 import type { NextPage } from "next";
+import Header from "../layouts/header/Header";
 
 const Home: NextPage = () => {
-  return <div>Initial Setup done</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 };
 
 export default Home;

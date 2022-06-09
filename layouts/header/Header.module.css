@@ -1,0 +1,47 @@
+.header {
+  @apply fixed top-3 left-0 right-0 z-10;
+}
+
+.nav {
+  @apply flex w-full max-w-[48.75rem] h-14 m-auto;
+  border-radius: 3.5rem;
+  backdrop-filter: blur(24px);
+  transition: background-color 0.2s ease;
+}
+
+.nav_Bg {
+  background-color: #1f2023cc;
+}
+
+.menu {
+  @apply flex items-center justify-between w-full h-full p-3 gap-2 capitalize;
+}
+
+.menu > li {
+  @apply text-white-300 text-base text-center flex-shrink-0 font-medium;
+}
+
+.menu > li > span {
+  display: block !important;
+}
+
+.buttons {
+  @apply flex gap-2 ml-auto mr-0;
+}
+
+.cta {
+  @apply border-white-200 px-6 py-2;
+  border: 1px solid;
+  border-radius: 3.125rem;
+}
+
+.ctaOpen {
+  @apply bg-blue text-white-100 border-transparent;
+  transition: background-color 0.2s ease;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    top: 2rem;
+  }
+}

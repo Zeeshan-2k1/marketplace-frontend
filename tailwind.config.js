@@ -7,13 +7,18 @@ module.exports = {
   theme: {
     colors: {
       transparent: "transparent",
-      white: "#ffffff",
+      white: {
+        100: "#ffffff",
+        200: "ffffff0d",
+        300: "#ffffff66",
+      },
       black: {
         100: "#393E46",
         900: "#222831",
+        bg: "#121316",
         dark: "#000000",
       },
-      blue: "#00ADB5",
+      blue: "#248aff",
       grey: "#EEEEEE",
     },
     screens: {
